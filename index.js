@@ -10,7 +10,7 @@ const PAYPAL_CLIENT_ID =
   "AaDRQ4BHtrVyJ_dOFsKy8q8Dhin5De1FPHl5WgGz3U8w1V0Ub_mLGIx0YJykTkUR8VEVHIO1Vlnl1ygE";
 const PAYPAL_CLIENT_SECRET =
   "ECp0zUGTejr_HcHPyVdhy0gg7t59WMRCi9lj7yNlmFPLcPRPgtDq4KN3fcKeoAaGXpkpf-kZKNACucDH";
-const REDIRECT_URI = "https://transactionapi-test.onrender.com/callback";
+const REDIRECT_URI = "http://localhost:3000/callback";
 
 app.use(express.static("public"));
 
