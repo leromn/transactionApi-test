@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>PayPal OAuth Test</title>
-  </head>
-  <body>
-    <h2>Connect to PayPal Sandbox</h2>
-    <a href="/connect">
-      <button>Connect Your PayPal</button>
+<head>
+<title>Connect with PayPal Test</title>
+<style>
+  body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; min-height: 80vh; background-color: #f0f0f0; }
+  .container { background-color: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); text-align: center; }
+  button { padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: #0070ba; color: white; border: none; border-radius: 5px; }
+  button:hover { background-color: #005a8e; }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Connect Client's PayPal Account (Test)</h1>
+    <p>Click the button below to initiate the PayPal authorization flow.</p>
+    <a href="/connect-paypal">
+      <button>Connect with PayPal</button>
     </a>
-  </body>
+  </div>
+</body>
 </html>
